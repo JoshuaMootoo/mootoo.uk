@@ -1,7 +1,7 @@
 # Mootoo.uk
 Personal portfolio and blog website built with **Blazor Web App** (server interactivity) on **.NET**. Pages include Home, Projects, CV, Blog, and Contact.
 
-**Link to websiet:** https/www.mootoo.uk/
+**Link to websiet:** https://www.mootoo.uk/
 
 ## Pages
 * **Home:** 
