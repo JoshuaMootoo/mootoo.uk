@@ -13,4 +13,11 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\fonts\" />
+    <Folder Include="wwwroot\img\blog\" />
+    <Folder Include="wwwroot\img\projects\" />
+    <Folder Include="wwwroot\img\profiles\" />
+  </ItemGroup>
+
 </Project>
