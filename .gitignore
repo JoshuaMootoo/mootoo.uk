@@ -1,0 +1,115 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# User specific IDE files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+*.swp
+*.orig
+
+# Visual Studio
+.vs/
+
+# VS Code
+.vscode/*
+
+# Rider
+.idea/
+
+# Build outputs
+bin/
+obj/
+out/
+artifacts/
+publish/
+TestResults/
+*.localhistory/
+
+# Logs
+*.log
+logs/
+log/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+
+# Code coverage
+coverage/
+coverage-*/
+*.coverage
+*.coveragexml
+.opencover.xml
+*.lcov
+.coverage
+
+# Playwright and other e2e test outputs
+playwright-report/
+test-results/
+blob-report/
+trace.zip
+
+# Frontend toolchains
+node_modules/
+.pnpm-store/
+.yarn/*
+.yarnrc.yml
+# keep lockfiles in git
+#!package-lock.json
+#!pnpm-lock.yaml
+#!yarn.lock
+
+# Bundler caches and builds
+.cache/
+.parcel-cache/
+.esbuild/
+.sass-cache/
+dist/
+*.map
+
+# Generated web assets
+wwwroot/dist/
+wwwroot/build/
+wwwroot/node_modules/
+wwwroot/css/*.min.css
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+# dotnet user-secrets are stored outside the repo, but ignore if present
+secrets.json
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# EF Core migration bundle artifacts
+efbundle*
+*.efbundle
+
+# Tooling
+.ReSharper*/
+StyleCop.Cache
+NCrunch*
+*.ncrunch*
+.fleet/
+
+# Azure Functions local settings
+local.settings.json
+
+# Misc
+*.tmp
+*.bak
